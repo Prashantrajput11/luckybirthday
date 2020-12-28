@@ -11,6 +11,8 @@ let output = document.querySelector(".output");
 reset.addEventListener("click", function () {
   userInput.value = " ";
   options.value = " ";
+  document.body.style.background = "white";
+  container.style.display = "none";
 });
 
 btn.addEventListener("click", function () {
