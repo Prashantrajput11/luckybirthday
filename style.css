@@ -1,0 +1,68 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Audiowide", cursive;
+}
+
+.header {
+  height: 30vh;
+  /* border: 1px solid red; */
+  background: #ff3d00;
+  text-align: center;
+}
+
+.showcase {
+  min-height: 80vh;
+  /* border: 1px solid blue; */
+}
+.showcase-content {
+  max-width: 600px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.user-input,
+.options {
+  margin: 4rem auto;
+  padding: 1.2rem;
+  border-radius: 0.4rem;
+  border-color: #ff3d00;
+  outline: hidden;
+  display: block;
+}
+.output-container {
+  border: 2px solid #ff3d00;
+  margin-top: 3rem;
+  margin-bottom:2rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  display: none;
+  width: 80%;
+  border-radius: 0.4rem;
+  /* padding: 1rem 1.5rem; */
+}
+
+.btn {
+  padding: 0.6rem 1.8rem;
+  display: block;
+  margin: auto;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+.reset {
+  padding: 0.6rem 1.8rem;
+  display: block;
+  margin: 1rem auto;
+}
+
+.footer {
+  height: 20vh;
+  background: #ff3d00;
+  text-align: center;
+}
